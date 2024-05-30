@@ -9,3 +9,5 @@ s
 Ckafka-basics/src/main/java/io/lauvsong/demo/kafka/ProducerDemo.java,4/a/4a909c90bd083800559a08cc0d25deb9bf2c25e3
 
 Okafka-basics/src/main/java/io/lauvsong/demo/kafka/ProducerDemoWithCallback.java,c/1/c1446a13405ff70cf6118b5537ecf02928e06004
+w
+Gkafka-basics/src/main/java/io/lauvsong/demo/kafka/ProducerDemoKeys.java,7/9/792267e3b3031ab7f02d9e7dd14038bc364f2bec
