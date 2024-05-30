@@ -21,12 +21,10 @@ public class ConsumerDemo {
         String groupId = "my-java-application";
         String topic = "demo_java";
 
-        // create Producer Properties
+        // create Consumer Properties
         Properties properties = new Properties();
         properties.setProperty("key", "value");
         properties.setProperty("bootstrap.servers", "127.0.0.1:9092");
-
-        // create consumer configs
         properties.setProperty("key.deserializer", StringDeserializer.class.getName());
         properties.setProperty("value.deserializer", StringDeserializer.class.getName());
         properties.setProperty("group.id", groupId);
